@@ -125,6 +125,14 @@ export class Title extends Component<{
         {icon ? <b className="lc-title-icon">{icon}</b> : null}
         {this.renderLabel(title.label)}
         {tip}
+        {/* <span style={{
+          color: '#ccc',
+          marginLeft: 4,
+        }}>.className</span>
+        <span style={{
+          color: '#ccc',
+          marginLeft: 4,
+        }}>我是个一个长长长长长长长长长文本</span> */}
       </span>
     );
   }

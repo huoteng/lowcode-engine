@@ -302,6 +302,9 @@ export class Skeleton {
   createPanel(config: PanelConfig) {
     const parsedConfig = this.parseConfig(config);
     const panel = new Panel(this, parsedConfig as PanelConfig);
+
+    console.log('createPanel', config);
+
     this.panels.set(panel.name, panel);
     return panel;
   }

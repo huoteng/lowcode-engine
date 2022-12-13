@@ -1,4 +1,4 @@
-import { Component, Fragment } from 'react';
+import { Component, Fragment, createElement } from 'react';
 import classNames from 'classnames';
 import { observer } from '@alilc/lowcode-editor-core';
 import Area from '../area';
